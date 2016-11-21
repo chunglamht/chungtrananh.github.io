@@ -1,0 +1,407 @@
+#topPage {
+    background-color: #05559C;
+    font-size: 12px;
+    min-height: 35px;
+    line-height: 35px;
+}
+#topPage a{
+    color: #FFFFFF;
+}
+.header{
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 960px;
+}
+
+h2.title-cat{
+    background: url(../images/cat-title.png) no-repeat scroll left bottom;
+    border-bottom: 1px solid;
+    color: #05559c;
+    font-size: 15px;
+    font-weight: bold;
+    height: 19px;
+    line-height: 17px;
+    margin: 0 0 15px 0;
+    padding-left: 24px;
+    text-transform: uppercase;
+}
+h2.title-cat a{
+    color: #05559C;
+    text-decoration: none;
+}
+h3.title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+p.des{
+    text-align: justify;
+}
+.content-right ul{
+    padding: 0;
+    margin: 0;
+}
+.content-right ul li{
+    list-style-type: none;
+}
+h4.title{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.cat-date{
+    background: url(../images/cat-icon.png) no-repeat scroll left center;
+    color: #4aa8d6;
+    font-size: 11px;
+    padding-left: 20px;
+    margin: 5px 0;
+}
+.cat-date span{
+    color: #c3c3c3;
+    font-size: 11px;
+    padding-left: 10px;
+}
+.content-right p.des{
+    font-size: 13px;
+}
+.news-block{
+    margin-bottom: 30px;
+}
+.left-menu{
+    background-color: #05559c;
+}
+.left-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.left-menu ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    background: url(../images/li-icon.png) no-repeat scroll 13px center;
+    border-bottom: 1px solid #012d71;
+}
+.left-menu ul li:last-child{
+    border-bottom: none;
+}
+.left-menu ul li a{
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+.support{
+    background-color: #38a8d6;
+    margin-top: 4px;
+    padding: 13px;
+}
+.support .orther{
+    margin-top: 27px;
+}
+.support .orther p span{
+    color: #ffffff;
+    font-weight: bold;
+}
+.support p.title{
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.support ul{
+    margin: 0;
+    padding: 0;
+}
+.support ul li{
+    background: url(../images/facebook-icon.png) no-repeat scroll left center;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+.support ul li a{
+    color: #ffffff;
+    padding-left: 28px;
+}
+.ads{
+    text-align: center;
+}
+.ads img{
+    display: inline-block;
+    margin: 22px auto 0;
+}
+footer.footer{
+    background: #033f84;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+footer.footer a{
+    color: #fff;
+}
+footer.footer p{
+    color: #fff;
+    margin: 0;
+}
+footer.footer p span{
+    font-weight: bold;
+}
+footer.footer .totop a {
+    display: block;
+    padding-right: 14px;
+    float: right;
+}
+.list-news .first-news{
+    background: none repeat scroll 0 0 #E2F4F6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.list-news ul.news{
+    margin: 0;
+    padding: 0;
+}
+.list-news ul.news li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E2F4F6;
+    padding-bottom: 5px;
+}
+.list-news ul.news li h3.title{
+    font-size: 15px;
+}
+.page{
+    display: inline-block !important;
+    margin: 10px auto !important;
+    text-align: center;
+}
+.fb-like{
+    margin: 6px 0 20px 0;
+    border-bottom: 1px solid #e9ebee;
+}
+.detail-news h1.title{
+    color: #05559C;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+}
+.detail-news p{
+    text-align: justify;
+}
+.detail-news .images{
+    text-align: center;
+}
+.detail-news .images img{
+    display: inline-block;
+}
+.detail-news p.caption{
+    text-align: center;
+    font-style: italic;
+}
+.related-news{
+    margin-top: 30px;
+}
+.related-news h4.title{
+
+    background: url(../images/news.png) no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 27px;
+    padding-top: 14px;
+    border-bottom: 2px solid #05559C;
+    color: #05559C;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding-bottom: 3px;
+}
+.related-news ul{
+    margin: 0;
+    padding: 0;
+}
+.related-news h5.title{
+    display: block;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 4px 0;
+}
+.related-news a{
+    color: #000;
+    text-align: justify;
+    text-decoration: none;
+}
+.related-news a:hover{
+    color: #05559C;
+}
+.related-news .related-news-thumb ul li{
+    list-style-type: none;
+}
+.related-news .related-news-thumb img{
+    width: 100%;
+}
+.related-news .related-news-text{
+    border-top: 1px dotted #BBBBBB;
+    margin-top: 14px;
+    padding-bottom: 2px;
+}
+.related-news .related-news-text ul{
+     color: #05559C;
+     margin-top: 10px;
+}
+.related-news .related-news-text ul li{
+    list-style: disc inside none;
+}
+@media screen and (max-width: 320px){
+    #topPage {
+        line-height: 15px;
+        padding: 5px 0;
+    }
+
+}
+@media screen and (max-width: 767px){
+
+    .header>.container{
+        padding: 0;
+    }
+    h2.title-cat{
+         margin-top: 0;
+        font-size: 17px;
+    }
+    footer.footer p{
+        text-align: center;
+    }
+    footer.footer .totop a {
+        text-align: center;
+        float: none;
+    }
+    .content-right .cat-date, .content-right p.des{
+        display: none;
+    }
+    .content-right h4.title{
+        font-weight: normal;
+        padding: 5px 0 5px 18px;
+        background: url("../images/rss-16.png") no-repeat left center;
+    }
+    .related-news .related-news-thumb ul li{
+        margin-bottom: 25px;
+    }
+    .related-news .related-news-thumb ul li:last-child{
+        margin-bottom: 0;
+    }
+    .related-news .related-news-thumb .thumbnail-item{
+        position: relative;
+    }
+    .related-news .related-news-thumb .img-rounded{
+        border-radius: 0;
+    }
+    .related-news .related-news-thumb .col-sm-3 h5{
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        font-size: 20px;
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        line-height: 22px;
+    }
+    .related-news .related-news-thumb .col-sm-3 h5 a{
+        color: white;
+    }
+}
+@media screen and (min-width: 768px){
+    .header{
+        background-image: url("../images/banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .header, .header .container{
+        height: 140px;
+        position: relative;
+    }
+    .navbar{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        margin: 0;
+    }
+    .navbar, .nav, .nav a{
+        height: 30px !important;
+    }
+    ul.nav.navbar-nav li a{
+        line-height: 3px !important;
+    }
+    nav.navbar{
+        min-height: 30px;
+    }
+    .navbar ul li.active{
+        background: none repeat scroll 0 0 #05559C;
+        border-radius: 6px;
+        color: #fff !important;
+    }
+    .navbar ul li.active a{
+        color: #fff !important;
+    }
+    .navbar ul li a:hover{
+        border-radius: 6px;
+        background-color: #05559C;
+        color: #fff;
+    }
+    .dropdown-menu>li>a {
+        padding: 14px 20px;
+    }
+    .dropdown-menu>li>a:hover {
+        border-radius: 0!important;
+    }
+
+    .navbar-brand{
+        display: none;
+    }
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #05559C;
+        color: #fff;
+        border-radius: 6px;
+    }
+    .thumb-news{
+        height: 175px;
+        overflow: hidden;
+        position: relative;
+    }
+    .thumb-news img{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .list-news .img-thumbnail{
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .list-news .first-news h3.title{
+        margin-top: 0;
+    }
+    .list-news ul.news li h3.title{
+        margin-top: 0;
+    }
+    .related-news .related-news-thumb img{
+        height: 100px;
+    }
+}
+@media screen and (min-width: 990px){
+    .header, .header .container{
+        height: 195px;
+        position: relative;
+    }
+    .related-news .related-news-thumb img{
+        height: 87px;
+    }
+}
