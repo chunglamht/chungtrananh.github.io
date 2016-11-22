@@ -1,0 +1,113 @@
+body{
+    background-color: #646255;
+}
+.container{
+    max-width: 1000px;
+    background-color: #fff;
+}
+.header{
+    padding-top: 15px;
+}
+
+.navbar-brand img{
+    display: block;
+    width: 70%;
+}
+.left-panel {
+    background: none repeat scroll 0 0 #4EA69A;
+    overflow: hidden;
+}
+h2.title {
+    background: none repeat scroll 0 0 #005949;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0;
+}
+.left-panel ul{
+    margin: 0 10px;
+    padding: 0;
+}
+.left-panel ul li {
+    border-bottom: 1px dotted #FFFFFF;
+    color: #FFFFFF;
+    list-style: disc inside none;
+    margin: 10px 0;
+}
+.left-panel ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.right-panel{
+    margin-bottom: 20px;
+}
+.items-news ul{
+    margin: 0;
+    padding: 0;
+}
+.items-news ul li{
+    list-style-type: none;
+    border-bottom: 1px dotted #BBBBBB;
+    padding: 10px 0;
+}
+.items-news ul li h3.title {
+    margin: 0 0 6px 0;
+    font-weight: bold;
+}
+.items-news ul li h3.title a{
+    color: #005949;
+    font-size: 15px;
+    text-decoration: none;
+}
+.items-news ul li p.des{
+    line-height: 18px;
+    text-align: justify;
+}
+footer.footer{
+    background: none repeat scroll 0 0 #4EA69A;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer.footer p{
+    color: #fff;
+    margin: 0;
+}
+@media screen and (max-width: 767px){
+    .header-top{
+        display: none;
+    }
+    .col-left{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .navbar-brand{
+        display: none;
+    }
+    .navbar{
+        margin: 10px 0;
+        border-radius: 0;
+        background-color: #990000;
+        border: none;
+    }
+    .navbar .dropdown.cat{
+        display: none;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        color: #fff;
+        background-color: #E5474D;
+    }
+    .navbar, .nav, .nav a{
+        height: 30px !important;
+        line-height: 3px !important;
+    }
+    nav.navbar.navbar-default{
+        min-height: 30px;
+    }
+}
